@@ -37,9 +37,7 @@ gulp.task("dev",gulp.parallel("dev:scripts"));
 
 gulp.task("watch",gulp.series("dev",
     ()=>{
-        $.livereload.listen();
-        // gulp.watch(config.styles.src,gulp.series("dev:styles"));
-       // gulp.watch(config.styles.srcDirectory,gulp.series("dev:styles"));
+        $.livereload.listen();       
         gulp.watch(config.scripts.src,gulp.series("dev:scripts"));
     }
 ));
