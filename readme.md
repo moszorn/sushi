@@ -1,0 +1,1 @@
+#####there are a gulpfile associate with livereload in cocos2d-js prj .
