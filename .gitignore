@@ -5,6 +5,7 @@ node_modules
 
 frameworks/
 publish/
+src/
 
 Thumbs.db
 desktop.ini
